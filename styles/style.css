@@ -55,7 +55,7 @@
     justify-content: space-around;
     padding: 100px 100px;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .failure-container{
     width: 450px;
@@ -100,4 +100,24 @@
     border-radius: 50%;
     margin-bottom: 157px;
     margin-right: 7px;
+}
+
+/* My plans section styles */
+.my-plan{
+    text-align: center;
+    padding: 80px 120px;
+}
+.points-of-plan{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.points-of-plan .single-point h4{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.points-of-plan .single-point p{
+    color:#444343;
+    font-weight: 600;
 }
