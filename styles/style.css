@@ -129,7 +129,6 @@
     height: 230px;
     border: 0;
     margin: 50px 15% 100px 15%;
-    /* background-image: url(../images/watch.png); */
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url("../images/watch.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -151,4 +150,65 @@
 .title-div .btn-primary{
     background-color: white;
     color: #FE5F75;
+}
+
+/* opinion section added */
+.opinion-section{
+    width: 70%;
+    height: auto;
+    border: 0;
+    margin: 50px 15% 100px 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.opinion-container{
+    width: 100%;
+    height: auto;
+    border: 0;
+    background-color: #e5d8d1;
+    padding: 30px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.opinion-container img{
+    width: 40px;
+    height: auto;
+}
+.question-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.question-container p{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.question-container p strong{
+    color: red;
+}
+.opinion-container form{
+    padding-top: 30px;
+}
+.opinion-container form label{
+    padding-right: 364px;
+    font-weight: 600;
+}
+.opinion-container form textarea{
+    margin: 5px 0 20px 0;
+    padding: 15px 0 0 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.opinion-container form span{
+    color: red;
+}
+.opinion-container form input[type="button"]{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: linear-gradient(120deg,#FC9842,#FE5F75);
 }
